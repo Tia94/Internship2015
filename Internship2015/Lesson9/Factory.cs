@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson9
 {
-    static class Factory
+    static class Company
     {
        public static List<Worker> GetWorkers()
        { 

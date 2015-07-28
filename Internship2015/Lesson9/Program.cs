@@ -54,13 +54,13 @@ namespace Lesson9
                         {
                           //var sum= SalaryExtension.SalarySum(Factory.GetWorkers());
                           //Console.WriteLine(sum);
-                         var sum= Factory.GetWorkers().SalarySum();
+                         var sum= Company.GetWorkers().SalarySum();
                          Console.WriteLine(sum);
                             break;
                         }
                     case "6":
                         {
-                            var workerSalary = from w in Factory.GetWorkers()
+                            var workerSalary = from w in Company.GetWorkers()
                                                where w.Salary >= 2000
                                                select w.Name + " " + w.StartedYear;
                             foreach (var w in workerSalary)
@@ -84,7 +84,7 @@ namespace Lesson9
 
         public static void ShowWorkers()
         {
-            var workers = Factory.GetWorkers();
+            var workers = Company.GetWorkers();
 
             foreach (Worker w in workers)
             {
@@ -94,7 +94,7 @@ namespace Lesson9
 
         public static void Show(WantedState state)
         {
-            var workers = Factory.GetWorkers();
+            var workers = Company.GetWorkers();
 
             foreach (Worker w in workers)
             {
