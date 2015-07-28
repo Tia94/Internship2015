@@ -18,9 +18,9 @@ namespace Lesson9
             Console.WriteLine("5. The sum of Salaries");
             Console.WriteLine("6. Employees with salary greater than 2000");
 
+            var company = Company.Instance;
 
-
-                string option;
+            string option;
 
             do
             {
@@ -47,20 +47,20 @@ namespace Lesson9
                         }
                     case "4":
                         {
-                            Show(w => w.State==State.Resting);
+                            Show(w => w.State == State.Resting);
                             break;
                         }
                     case "5":
                         {
-                          //var sum= SalaryExtension.SalarySum(Factory.GetWorkers());
-                          //Console.WriteLine(sum);
-                         var sum= Company.GetWorkers().SalarySum();
-                         Console.WriteLine(sum);
+                            //var sum= SalaryExtension.SalarySum(Factory.GetWorkers());
+                            //Console.WriteLine(sum);
+                            var sum = company.GetWorkers().SalarySum();
+                            Console.WriteLine(sum);
                             break;
                         }
                     case "6":
                         {
-                            var workerSalary = from w in Company.GetWorkers()
+                            var workerSalary = from w in company.GetWorkers()
                                                where w.Salary >= 2000
                                                select w.Name + " " + w.StartedYear;
                             foreach (var w in workerSalary)
@@ -70,8 +70,8 @@ namespace Lesson9
                             break;
                         }
                 }
-            }            
-            while (option != "exit") ;
+            }
+            while (option != "exit");
 
         }
 
@@ -84,7 +84,8 @@ namespace Lesson9
 
         public static void ShowWorkers()
         {
-            var workers = Company.GetWorkers();
+            var company = Company.Instance;
+            var workers = company.GetWorkers();
 
             foreach (Worker w in workers)
             {
@@ -94,12 +95,13 @@ namespace Lesson9
 
         public static void Show(WantedState state)
         {
-            var workers = Company.GetWorkers();
+            var company = Company.Instance;
+            var workers = company.GetWorkers();
 
             foreach (Worker w in workers)
             {
-                if (state (w))
-                Console.WriteLine(w.GetDetails());
+                if (state(w))
+                    Console.WriteLine(w.GetDetails());
             }
         }
     }
