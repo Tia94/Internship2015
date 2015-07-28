@@ -1,9 +1,0 @@
-D:\Internship2015\Internship2015\Lesson9\bin\Debug\Lesson9.exe.config
-D:\Internship2015\Internship2015\Lesson9\bin\Debug\Lesson9.exe
-D:\Internship2015\Internship2015\Lesson9\bin\Debug\Lesson9.pdb
-D:\Internship2015\Internship2015\Lesson9\obj\Debug\Lesson9.csprojResolveAssemblyReference.cache
-D:\Internship2015\Internship2015\Lesson9\obj\Debug\Lesson9.exe
-D:\Internship2015\Internship2015\Lesson9\obj\Debug\Lesson9.pdb
-D:\Internship2015\Internship2015\Internship2015\Lesson9\bin\Debug\Lesson9.exe.config
-D:\Internship2015\Internship2015\Internship2015\Lesson9\obj\Debug\Lesson9.exe
-D:\Internship2015\Internship2015\Internship2015\Lesson9\obj\Debug\Lesson9.pdb
