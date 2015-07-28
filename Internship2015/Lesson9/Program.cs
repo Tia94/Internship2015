@@ -10,6 +10,10 @@ namespace Lesson9
     {
         static void Main(string[] args)
         {
+            // try
+            var reg = RegistrationFactory.Create("Tia", "Programming 1", "Timisoara");
+
+
             Console.WriteLine("The options are:");
             Console.WriteLine("1. All workers");
             Console.WriteLine("2. All the working");
