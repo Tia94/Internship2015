@@ -35,7 +35,7 @@ namespace Lesson9
 
         public Registration(Learner learner, Course course, Centre centre, DateTime dt)
         {
-            // assign
+
         }
     }
 }

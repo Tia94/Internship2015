@@ -12,7 +12,7 @@ namespace Lesson9
         {
             // try
             var reg = RegistrationFactory.Create("Tia", "Programming 1", "Timisoara");
-
+          
 
             Console.WriteLine("The options are:");
             Console.WriteLine("1. All workers");
@@ -41,7 +41,7 @@ namespace Lesson9
                             Show(IsWorking);
                             break;
                         }
-                    case "3":
+                    case "3":  //anonymous function
                         {
                             Show(delegate(Worker w)
                             {
