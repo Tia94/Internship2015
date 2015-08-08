@@ -4,3 +4,9 @@ D:\Internship2015\Internship2015\Lesson12\bin\Debug\Lesson12.pdb
 D:\Internship2015\Internship2015\Lesson12\obj\Debug\Lesson12.csprojResolveAssemblyReference.cache
 D:\Internship2015\Internship2015\Lesson12\obj\Debug\Lesson12.exe
 D:\Internship2015\Internship2015\Lesson12\obj\Debug\Lesson12.pdb
+C:\Internship2015\Internship2015\Lesson12\bin\Debug\Lesson12.exe.config
+C:\Internship2015\Internship2015\Lesson12\bin\Debug\Lesson12.exe
+C:\Internship2015\Internship2015\Lesson12\bin\Debug\Lesson12.pdb
+C:\Internship2015\Internship2015\Lesson12\obj\Debug\Lesson12.csprojResolveAssemblyReference.cache
+C:\Internship2015\Internship2015\Lesson12\obj\Debug\Lesson12.exe
+C:\Internship2015\Internship2015\Lesson12\obj\Debug\Lesson12.pdb
