@@ -18,7 +18,7 @@ namespace IoCExample.Dal
             _filePath = filePath;
         }
 
-        XmlSerializer serializer = new XmlSerializer(typeof(List<Employee>));
+        //XmlSerializer serializer = new XmlSerializer(typeof(List<Employee>));
 
         public IList<Employee> GetAllEmployees()
         {
