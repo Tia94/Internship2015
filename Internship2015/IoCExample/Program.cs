@@ -1,10 +1,6 @@
-﻿using IoCExample.Bll;
+﻿using System;
+using IoCExample.Bll;
 using IoCExample.Dal;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
 
 namespace IoCExample
@@ -13,14 +9,17 @@ namespace IoCExample
     {
         static void Main(string[] args)
         {
-            //IFilePath path = new FilePath(@"D:\Employees.xml");
-            //IEmployeeDal dal = new EmployeeDal(path);
-            //IEmployeeBll bll = new EmployeeBll(dal);
-            //var presentation = new EmployeePresentation(bll);
-            //presentation.ShowEmployeesOnConsole();
+            var myContainer = new UnityContainer();
 
-            var container = new UnityContainer();
-            
+            var filePath = new FilePath(@"C:\Test\Employees.xml");
+            myContainer.RegisterInstance<IFilePath>(filePath);
+
+            myContainer.RegisterType<IEmployeeDal, EmployeeDal>();
+            myContainer.RegisterType<IEmployeeBll, EmployeeBll>();
+            myContainer.RegisterType<EmployeePresentation>();
+
+            var employeePresentation = myContainer.Resolve<EmployeePresentation>();
+            employeePresentation.ShowEmployeesOnConsole();
 
             Console.ReadLine();
         }

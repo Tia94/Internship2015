@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson12
 {
@@ -10,8 +8,8 @@ namespace Lesson12
     {
         static void Main(string[] args)
         {
-            var Library = new List<Book>()
-           {
+            var library = new List<Book>
+            {
                new Book
                {
                    Name=" math",
@@ -46,17 +44,17 @@ namespace Lesson12
 
            };
             Console.WriteLine("((filtring))");
-            var a=Library.Take(3);  //filtring
+            var a = library.Take(3);  //filtring
             Console.WriteLine(" The first three books are :");
-            foreach(var book in a)
+            foreach (var book in a)
             {
                 Console.WriteLine(book);
             }
 
             Console.WriteLine("=======================");
-           
-          
-            var books = Library.Select(x => x.Name);  //projection
+
+
+            var books = library.Select(x => x.Name);  //projection
             Console.WriteLine("((projection))");
             foreach (var book in books)
             {
@@ -65,10 +63,10 @@ namespace Lesson12
             Console.WriteLine("=======================");
 
 
-          
+
             Console.WriteLine("((Element operation))");//Element operators
             Console.Write(" The Last book is :");
-            var b= Library.Last();  
+            var b = library.Last();
             Console.WriteLine(b);
             Console.WriteLine("=======================");
 
@@ -76,15 +74,15 @@ namespace Lesson12
 
             Console.WriteLine("((Aggregation Method))"); //aggregation method
             Console.Write("The average of the pices is :");
-            var b2 = Library.Average(x => x.Price); 
-           
-                Console.WriteLine(b2);
-          
+            var b2 = library.Average(x => x.Price);
+
+            Console.WriteLine(b2);
+
             Console.WriteLine("=======================");
 
 
 
-           
+
 
 
             var student = new List<Student>()
@@ -92,7 +90,7 @@ namespace Lesson12
                 new Student
                 {
                     Name ="Rami",
-                    age=26,
+                    Age=26,
                     SchoolYear = 3
 
 
@@ -101,21 +99,21 @@ namespace Lesson12
                 new Student
                 {
                     Name ="Maria",
-                    age=15,
+                    Age=15,
                     SchoolYear=1
                 },
 
                 new Student
                 {
                     Name ="Patricia",
-                    age=21,
+                    Age=21,
                     SchoolYear=3
                 },
 
                 new Student
                 {
                     Name ="Shaza",
-                    age=13,
+                    Age=13,
                     SchoolYear=2
                 },
 
@@ -125,32 +123,32 @@ namespace Lesson12
             var emptyStudnt = Enumerable.Empty<Student>();  //geneatin method
             var r = Enumerable.Repeat(1, 20);
             var rangeExample = Enumerable.Range(3, 15);
-          
+
 
             //var orderStudent = student.OrderBy(x => x.SchoolYear).ThenByDescending(x => x.age);  //ordering
 
-            var grouping = from students in student    //joining
-                           group students by students.SchoolYear
-                               into orderByYear
-                               select new { orderByYear.Key, SchoolYear = orderByYear };
+            //var grouping = from students in student    //joining
+            //               group students by students.SchoolYear
+            //                   into orderByYear
+            //                   select new { orderByYear.Key, SchoolYear = orderByYear };
 
 
 
 
-// foreach (var studentgroup in grouping)
-//        {
-//            Console.WriteLine("Groups that start with a vowel: {0}", studentgroup.Key);
-//            foreach (var word in studentgroup)
-//            {
-//                Console.WriteLine("   {0}", student.Name);
-//            }
-//        }
+            // foreach (var studentgroup in grouping)
+            //        {
+            //            Console.WriteLine("Groups that start with a vowel: {0}", studentgroup.Key);
+            //            foreach (var word in studentgroup)
+            //            {
+            //                Console.WriteLine("   {0}", student.Name);
+            //            }
+            //        }
 
-//        // Keep the console window open in debug mode
-//        Console.WriteLine("Press any key to exit.");
-//        Console.ReadKey();
-//    }
-//}
+            //        // Keep the console window open in debug mode
+            //        Console.WriteLine("Press any key to exit.");
+            //        Console.ReadKey();
+            //    }
+            //}
 
 
             //foreach (IGrouping<char, Student> studentGroup in grouping)

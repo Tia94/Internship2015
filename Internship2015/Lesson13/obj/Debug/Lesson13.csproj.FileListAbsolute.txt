@@ -1,0 +1,6 @@
+C:\Internship2015\Internship2015\Lesson13\bin\Debug\Lesson13.exe.config
+C:\Internship2015\Internship2015\Lesson13\bin\Debug\Lesson13.exe
+C:\Internship2015\Internship2015\Lesson13\bin\Debug\Lesson13.pdb
+C:\Internship2015\Internship2015\Lesson13\obj\Debug\Lesson13.csprojResolveAssemblyReference.cache
+C:\Internship2015\Internship2015\Lesson13\obj\Debug\Lesson13.exe
+C:\Internship2015\Internship2015\Lesson13\obj\Debug\Lesson13.pdb
