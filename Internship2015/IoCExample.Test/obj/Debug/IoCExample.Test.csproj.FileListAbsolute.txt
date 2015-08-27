@@ -1,0 +1,13 @@
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\IoCExample.Test.dll
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\IoCExample.Test.pdb
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\IoCExample.exe
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\Moq.dll
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\nunit.framework.dll
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\IoCExample.pdb
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\Moq.xml
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\nunit.framework.xml
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Internship2015\Internship2015\IoCExample.Test\obj\Debug\IoCExample.Test.csprojResolveAssemblyReference.cache
+C:\Internship2015\Internship2015\IoCExample.Test\obj\Debug\IoCExample.Test.dll
+C:\Internship2015\Internship2015\IoCExample.Test\obj\Debug\IoCExample.Test.pdb
