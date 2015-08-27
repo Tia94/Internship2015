@@ -1,13 +1,11 @@
 ﻿using IoCExample.Dal;
-using System;
+
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace IoCExample.Bll
 {
-    class EmployeeBll : IEmployeeBll
+    public class EmployeeBll : IEmployeeBll
     {
         private IEmployeeDal _dal;
 
@@ -19,6 +17,7 @@ namespace IoCExample.Bll
         public IList<Employee> GetEmployees()
         {
             var list =  _dal.GetAllEmployees();
+            //
             return list;
         }
     }

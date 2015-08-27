@@ -21,6 +21,7 @@ namespace IoCExample
             var employeePresentation = myContainer.Resolve<EmployeePresentation>();
             employeePresentation.ShowEmployeesOnConsole();
 
+
             Console.ReadLine();
         }
     }
