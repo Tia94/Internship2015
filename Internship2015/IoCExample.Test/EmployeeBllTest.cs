@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using IoCExample.Bll;
 using IoCExample.Dal;
+using IoCExample.Domain;
 using Moq;
 using NUnit.Framework;
 
