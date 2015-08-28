@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCExample", "IoCExample\Io
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCExample.Test", "IoCExample.Test\IoCExample.Test.csproj", "{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Interfaces", "ClassLibrary1\Repository.Interfaces.csproj", "{433F1636-55D1-4940-B22D-149EB55426EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433F1636-55D1-4940-B22D-149EB55426EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433F1636-55D1-4940-B22D-149EB55426EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433F1636-55D1-4940-B22D-149EB55426EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433F1636-55D1-4940-B22D-149EB55426EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
