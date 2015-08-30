@@ -22,3 +22,6 @@ C:\Internship2015\Internship2015\IoCExample\bin\Debug\Microsoft.Practices.Unity.
 C:\Internship2015\Internship2015\IoCExample\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 C:\Internship2015\Internship2015\IoCExample\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 C:\Internship2015\Internship2015\IoCExample\obj\Debug\IoCExample.csprojResolveAssemblyReference.cache
+D:\Projects\Tia_Intership2015\Internship2015\IoCExample\bin\Debug\IoCExample.exe.config
+D:\Projects\Tia_Intership2015\Internship2015\IoCExample\obj\Debug\IoCExample.exe
+D:\Projects\Tia_Intership2015\Internship2015\IoCExample\obj\Debug\IoCExample.pdb
