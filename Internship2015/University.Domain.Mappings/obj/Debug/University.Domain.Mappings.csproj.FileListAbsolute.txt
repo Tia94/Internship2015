@@ -1,0 +1,14 @@
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\University.Domain.Mappings.dll
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\University.Domain.Mappings.pdb
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\FluentNHibernate.dll
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\Iesi.Collections.dll
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\NHibernate.dll
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\University.Domain.dll
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\University.Domain.pdb
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\FluentNHibernate.pdb
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\FluentNHibernate.xml
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\Iesi.Collections.xml
+C:\Internship2015\Internship2015\University.Domain.Mappings\bin\Debug\NHibernate.xml
+C:\Internship2015\Internship2015\University.Domain.Mappings\obj\Debug\University.Domain.Mappings.csprojResolveAssemblyReference.cache
+C:\Internship2015\Internship2015\University.Domain.Mappings\obj\Debug\University.Domain.Mappings.dll
+C:\Internship2015\Internship2015\University.Domain.Mappings\obj\Debug\University.Domain.Mappings.pdb

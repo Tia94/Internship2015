@@ -54,7 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollageMap.cs" />
+    <Compile Include="CourseMap.cs" />
+    <Compile Include="ProfessorMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

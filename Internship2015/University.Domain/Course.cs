@@ -4,10 +4,10 @@ namespace University.Domain
 {
     public class Course : Entity
     {
-        public string Name { get; set; }
-        public Professor Professor { get; set; }
-        public IList<Student> Students { get; protected set; }
-
+        public virtual string Name { get; set; }
+        public virtual Professor Professor { get; set; }
+        public virtual IList<Student> Students { get; protected set; }
+             
         public Course()
         {
             Students = new List<Student>();

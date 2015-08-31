@@ -25,3 +25,10 @@ C:\Internship2015\Internship2015\IoCExample\obj\Debug\IoCExample.csprojResolveAs
 D:\Projects\Tia_Intership2015\Internship2015\IoCExample\bin\Debug\IoCExample.exe.config
 D:\Projects\Tia_Intership2015\Internship2015\IoCExample\obj\Debug\IoCExample.exe
 D:\Projects\Tia_Intership2015\Internship2015\IoCExample\obj\Debug\IoCExample.pdb
+C:\Internship2015\Internship2015\IoCExample\bin\Debug\FluentNHibernate.dll
+C:\Internship2015\Internship2015\IoCExample\bin\Debug\Iesi.Collections.dll
+C:\Internship2015\Internship2015\IoCExample\bin\Debug\NHibernate.dll
+C:\Internship2015\Internship2015\IoCExample\bin\Debug\FluentNHibernate.pdb
+C:\Internship2015\Internship2015\IoCExample\bin\Debug\FluentNHibernate.xml
+C:\Internship2015\Internship2015\IoCExample\bin\Debug\Iesi.Collections.xml
+C:\Internship2015\Internship2015\IoCExample\bin\Debug\NHibernate.xml

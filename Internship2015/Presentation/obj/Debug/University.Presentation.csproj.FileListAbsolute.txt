@@ -1,0 +1,11 @@
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Presentation.dll
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Presentation.pdb
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Domain.dll
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Presentation.Interface.dll
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Domain.pdb
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Presentation.Interface.pdb
+C:\Internship2015\Internship2015\Presentation\obj\Debug\University.Presentation.csprojResolveAssemblyReference.cache
+C:\Internship2015\Internship2015\Presentation\obj\Debug\University.Presentation.dll
+C:\Internship2015\Internship2015\Presentation\obj\Debug\University.Presentation.pdb
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Repository.Interface.dll
+C:\Internship2015\Internship2015\Presentation\bin\Debug\University.Repository.Interface.pdb

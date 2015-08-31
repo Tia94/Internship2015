@@ -1,6 +1,4 @@
-﻿
-using FluentNHibernate.Mapping;
-
+﻿using FluentNHibernate.Mapping;
 
 namespace University.Domain.Mappings
 {
@@ -14,9 +12,16 @@ namespace University.Domain.Mappings
             Map(x => x.Name).Not.Nullable();
             Map(x => x.Address);
 
-            HasManyToMany(x => x.Courses).Table("CollageCourse").ParentKeyColumn("CollageID").ChildKeyColumn("CourseID");
+            HasManyToMany(x => x.Courses)
+                .Table("CollageCourse")
+                .ParentKeyColumn("CollageID")
+                .ChildKeyColumn("CourseID");
 
-
+            HasManyToMany(x => x.Professors)
+                .Table("CollageProfessor")
+                .ParentKeyColumn("CollageID")
+                .ChildKeyColumn("ProfessorID");
         }
+      
     }
 }

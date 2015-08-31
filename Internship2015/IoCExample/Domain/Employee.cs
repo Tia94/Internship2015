@@ -24,7 +24,7 @@ namespace IoCExample.Domain
             
         //}
         [Obsolete]
-        protected Employee()
+        public Employee()
         {
             
         }

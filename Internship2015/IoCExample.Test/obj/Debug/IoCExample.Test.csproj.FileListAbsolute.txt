@@ -11,3 +11,10 @@ C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\Microsoft.Practices.U
 C:\Internship2015\Internship2015\IoCExample.Test\obj\Debug\IoCExample.Test.csprojResolveAssemblyReference.cache
 C:\Internship2015\Internship2015\IoCExample.Test\obj\Debug\IoCExample.Test.dll
 C:\Internship2015\Internship2015\IoCExample.Test\obj\Debug\IoCExample.Test.pdb
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\FluentNHibernate.dll
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\NHibernate.dll
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\Iesi.Collections.dll
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\FluentNHibernate.pdb
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\FluentNHibernate.xml
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\NHibernate.xml
+C:\Internship2015\Internship2015\IoCExample.Test\bin\Debug\Iesi.Collections.xml
