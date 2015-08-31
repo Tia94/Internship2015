@@ -13,6 +13,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCExample", "IoCExample\Io
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCExample.Test", "IoCExample.Test\IoCExample.Test.csproj", "{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CDAE2622-CF9A-4D55-B1B8-0593183597BA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "University", "University", "{57C1002A-DE0A-4F00-9A28-04631CB69B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Domain", "University.Domain\University.Domain.csproj", "{A63E1D95-C5E5-40FF-B4DB-5F1828C4EE4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Domain.Mappings", "University.Domain.Mappings\University.Domain.Mappings.csproj", "{F6E1B26D-94A7-4C39-ACD0-DB2F6433256D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Interfaces", "ClassLibrary1\Repository.Interfaces.csproj", "{433F1636-55D1-4940-B22D-149EB55426EE}"
 EndProject
 Global
@@ -41,6 +54,14 @@ Global
 		{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820EC8C4-C325-4269-8C40-7DF5AEE6EF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63E1D95-C5E5-40FF-B4DB-5F1828C4EE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63E1D95-C5E5-40FF-B4DB-5F1828C4EE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63E1D95-C5E5-40FF-B4DB-5F1828C4EE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63E1D95-C5E5-40FF-B4DB-5F1828C4EE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E1B26D-94A7-4C39-ACD0-DB2F6433256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E1B26D-94A7-4C39-ACD0-DB2F6433256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E1B26D-94A7-4C39-ACD0-DB2F6433256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E1B26D-94A7-4C39-ACD0-DB2F6433256D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{433F1636-55D1-4940-B22D-149EB55426EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{433F1636-55D1-4940-B22D-149EB55426EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{433F1636-55D1-4940-B22D-149EB55426EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,5 +69,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A63E1D95-C5E5-40FF-B4DB-5F1828C4EE4D} = {57C1002A-DE0A-4F00-9A28-04631CB69B4B}
+		{F6E1B26D-94A7-4C39-ACD0-DB2F6433256D} = {57C1002A-DE0A-4F00-9A28-04631CB69B4B}
 	EndGlobalSection
 EndGlobal
